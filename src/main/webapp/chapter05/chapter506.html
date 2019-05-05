@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,
+maxi-mum-scale=1.0,user-scale=no" name="viewport" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-moble-web-app-status-bar-style"/>
+<title>文本框的使用</title>
+<style type="text/css">
+    #container{
+        display:box;
+        display:-moz-box;
+        display:-webkit-box;
+        border:solid 1px red;
+        -moz-box-orient:vertical;
+        webkit-box-orient:vertical;
+        width:800px;
+        height:200px;
+    }
+    #text-a {background-color:orange;}
+    #text-b {background-color:yellow;}
+    #text-c {background-color:limegreen;}
+    #text-a,#text-b,#text-c{
+        -moz-box-sizing:border-box;
+        -web-box-sizing:border-box;
+        font-size:1.5em;
+        font-weight:bold;
+        width:200px;
+    }
+    #leftsidebar{
+        width:160px;
+        padding:20px;
+        background-color:orange;
+        -moz-box-ordinal-group:1;
+        -webkit-box-ordinal-group:1;
+    }
+    #contents{
+        width:500px;
+        padding:20px;
+        background-color:yellow;
+        -moz-box-ordinal-group:2;
+        -webkit-box-ordinal-group:2;
+    }
+    #rightsidebar{
+        width:160px;
+        padding:20px;
+        background-color:limegreen;
+         -moz-box-ordinal-group:3;
+        -webkit-box-ordinal-group:3;
+    }
+    
+</style>
+</head>
+<body>
+    <div id="container">
+        <div id="text-a">列1</div>
+        <div id="text-b">列2</div>
+        <div id="text-c">列3</div>
+    </div>
+</body>
+</html>

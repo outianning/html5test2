@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+     * {
+     margin:0px;      /*清除外边框*/
+     padding:0px;     /*清除内边距*/
+ }
+     img{
+     border:none;
+ }
+     .header{
+     position:relative;
+     min-width:50px;
+     width:100%;
+     background:#C6D9EC;
+     overflow:hidden;
+     }
+     .img-item{
+     height:100%;
+     overflow:hidden;
+     float:left;
+     margin:10px 0px 0px;
+     padding:0px;
+     }
+     .img-size{
+     width:83%;
+     height:175px;
+     background-color:#0CC;
+     margin-left:10px;
+     margin-right:10px;
+     }
+     .nav-lis{
+         margin:10px 10px 5px 10px;
+     }
+     .nav-list:after{
+         content:'\0020';
+         display:block;
+         clear:both;
+         height:0;
+         overflow:hidden;
+     }
+     .nav-lis li{
+         position:relative;
+         float:left;
+         margin-bottom:5px;
+         -webkit-box-sizing:border-box;
+         -moz-box-sizing:border-box;
+         -ms-box-sizing:border-box;
+     }
+     .nav-flight:before{
+         top:24px;
+         left:50%
+         width:60px;
+         height:35px;
+         background-position:0 0;
+     }
+     .nav-car:before{
+         top:30px;
+         left:50%;
+         width:35px;
+         height:31px;
+         background-position:-130px 0;
+     }
+     
+      .nav-hotel:before{
+         top:30px;
+         left:50%;
+         width:58px;
+         height:44px;
+         background-position:0px -40px;
+     }
+     .nav-fortun:before{
+         top:24px;
+         left:50%;
+         width:24px;
+         height:35px;
+         background-position:-60px -30px;
+     }
+     .nav-stategy:before{
+         top:34px;
+         left:50%;
+         width:34px;
+         height:34px;
+         background-position:-120px -80px;
+     }
+     .nav-trip:before{
+         top:25px;
+         left:60%;
+         width:40px;
+         height:34px;
+         background-position:0px -90px;
+     }
+     .nav-week:before{
+         top:32px;
+         left:50%;
+         width:49px;
+         height:26px;
+         background-position:-50px -100px;
+     }
+     .nav-ticket:before{
+         top:32px;
+         left:50%;
+         width:50px;
+         height:26px;
+         background-position:-65px -70px;
+     }
+     

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,
+maxi-mum-scale=1.0,user-scale=no" name="viewport" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-moble-web-app-status-bar-style"/>
+<title>html布局</title>
+<style type="text/css">
+    #body{
+        width:600px;
+        border:solid 1px #666;
+    }
+    #header,#siderleft,#siderright,#footer{
+        border:solid 1px #666;
+        margin:6px;
+    }  
+    #header{
+        width:95%;
+    }
+    #siderleft{
+        float:left;
+        width:25%;
+        height:100px;
+    } 
+    #siderright{
+        float:left;
+        width:80%;
+        height:100px;
+    } 
+    #footer{
+        clear:both;
+        width:95%;
+    }
+    
+</style>
+</head>
+<body>   
+<div id="body">
+    <div id="header">头部</div>
+    <div id="siderleft">菜单</div>
+    <div id="siderright">内容
+        <input type="datetime-local" name="datetime1" />
+    </div>
+    <div id="footer">底部说明</div>   
+</div>
+</body>
+</html>

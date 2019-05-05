@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+header{
+	position:relative;/*定位方式为相对定位*/
+	overflow:hidden;
+	z-index:30;
+	height:65px;
+	-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.3);/*边框阴影*/
+	box-shadow:0 2px 4px rgba(0,0,0,0.3);/*边框阴影*/
+}
+header img{
+	height:50px;
+	float:left;/*左浮动*/
+}
+header h1{
+	line-height:40px;
+	font-size:22px;
+	text-align:center; /*字体居中*/	
+}
+
+#news li a{
+	text-decoration:none;
+	color:#000;
+}
+#news li a:hover{
+	color:#f00;
+}
+#news.h3{
+	font-weight:bold;
+	color:#00f;
+}
+#news.li{
+	font-size:xx-large;
+	font-weight:900;
+	line-height:20px;
+}

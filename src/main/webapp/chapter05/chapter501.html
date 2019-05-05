@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,
+maxi-mum-scale=1.0,user-scale=no" name="viewport" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-moble-web-app-status-bar-style"/>
+<title>文本框的使用</title>
+<style type="text/css">
+    .form{
+        width:100%;
+        background-color:#dcdcdc;
+        text-align:center;
+    }
+    input{
+        width:70%;
+        border:#000 1px solid;
+    } 
+    #sub{
+        width:50%;
+        border:#000 1px solid;
+        height:25px;
+        background-color:#dcdcdc;
+        border-radius:5px;
+    }  
+</style>
+</head>
+<body>
+    <div class="form">
+        <h2>携程旅游用户注册</h2>
+        <form action="aa.asp" method="post" id="user-form">
+                            用户名：<input type="text" name="fname" size="20" maxlength="15" value="请输入您的姓名"><br><br>
+                           密     码：<input type="password" name="fpassword" size="20" maxlength="20"><br><br>
+                           电话：<input type="text" name="ftelephone" size="20" maxlength="20"><br><br>
+                           性别：<input type="radio" value="sex" name="sex" checked>男<input type="radio" value="sex" >女<br><br>
+                   邮箱地址：<input type="email" name="e-mail"><br><br>
+                  出生年月：<input type="datetime-local" name="date"><br><br>
+                   
+        </form>
+    </div>
+    <div>
+        <h1>调查问卷</h1>
+        姓名：<input type="text" name="fyname" size="20" maxlength="15" value="请输入您的姓名"><br>
+        请输入你对本公司的了解<br>
+        <textarea name="textknow" cols="15"></textarea><br>
+        <input id="sub" type="submit" value="提交">
+    </div>
+        
+</body>
+</html>
